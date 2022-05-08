@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build with MADS",
+            "type": "shell",
+            "command": "C:\\Program Files\\MADS\\mads.exe",
+            "args": [
+                "${relativeFileDirname}\\${fileBasename}",
+                "-t",
+                "-l"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
